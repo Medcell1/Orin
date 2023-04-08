@@ -1,0 +1,77 @@
+name: orin
+description: A new Flutter project.
+
+
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.1 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  google_nav_bar: ^5.0.6
+  flutter_screenutil: ^5.6.0
+#  flutter_native_splash: ^2.2.16
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter_native_splash:
+ color: "#FFFFFF"
+ image: "assets/Splash3.png"
+ background_image: "assets/Splash2.png"
+
+
+
+
+
+
+
+flutter:
+
+  
+  
+  
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+  
+
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+    - family: ComforterBrush
+      fonts:
+        - asset: assets/fonts/ComforterBrush-Regular.ttf
+  
+  
+  
+  
+  
+  
+  
+  
+  
